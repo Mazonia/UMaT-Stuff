@@ -1,0 +1,194 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="mb0qJzOOC_WyVffE2nke">
+    <mxGraphModel dx="2571" dy="2379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3cfmXL58QQ6yGzk_lHse-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=light-dark(default, #450d0d);" value="" vertex="1">
+          <mxGeometry height="1660" width="2140" x="20" y="-830" as="geometry" />
+        </mxCell>
+        <mxCell id="3cfmXL58QQ6yGzk_lHse-3" edge="1" parent="1" source="FnDpfGd2mt3DoNxQ3xRY-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" target="FnDpfGd2mt3DoNxQ3xRY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 28px;&quot;&gt;Incident response&lt;/font&gt;" mermaidId="n:IR" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Incident response" id="FnDpfGd2mt3DoNxQ3xRY-20">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="380" width="540" x="130" y="-100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;Threat intelligence&lt;/font&gt;" mermaidId="n:IR1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Threat intelligence" id="FnDpfGd2mt3DoNxQ3xRY-21">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-20" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="172.43697478991598" width="111.97894736842106" x="19.894736842105264" y="143.69747899159665" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Digital forensics&lt;/font&gt;" mermaidId="n:IR2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Digital forensics" id="FnDpfGd2mt3DoNxQ3xRY-22">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-20" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="172.43697478991598" width="99.47368421052633" x="160.29473684210527" y="143.69747899159665" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="SOC operations" mermaidId="n:IR3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="SOC operations" id="FnDpfGd2mt3DoNxQ3xRY-23">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-20" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="172.43697478991598" width="95.49473684210527" x="288.18947368421055" y="143.69747899159665" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Recovery planning&lt;/font&gt;" mermaidId="n:IR4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Recovery planning" id="FnDpfGd2mt3DoNxQ3xRY-24">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-20" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="172.43697478991598" width="108.00000000000001" x="412.10526315789474" y="143.69747899159665" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:IA-&gt;FOCUS#0" mermaidBaseStyle="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;curved=1;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="FnDpfGd2mt3DoNxQ3xRY-41">
+          <mxCell edge="1" parent="1" source="FnDpfGd2mt3DoNxQ3xRY-25" style="dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=20;fontColor=light-dark(default, #450d0d);strokeWidth=3;" target="FnDpfGd2mt3DoNxQ3xRY-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Research focus&lt;/b&gt;&lt;br&gt;Cyber threat mitigation&lt;/font&gt;" mermaidId="n:FOCUS" mermaidBaseStyle="ellipse;html=1;aspect=fixed;strokeWidth=1;whiteSpace=wrap;fillColor=#1a5a8a;strokeColor=#4a9ed9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Research focus&lt;/b&gt;&#xa;Cyber threat mitigation" id="FnDpfGd2mt3DoNxQ3xRY-39">
+          <mxCell parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1;whiteSpace=wrap;fillColor=#1a5a8a;strokeColor=#4a9ed9;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="280" width="280" x="910" y="409.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 32px;&quot;&gt;Network security&lt;/font&gt;" mermaidId="n:NS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#0b3d3d;strokeColor=#1a9e8f;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Network security" id="FnDpfGd2mt3DoNxQ3xRY-4">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#0b3d3d;strokeColor=#1a9e8f;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="400" width="440" x="830" y="-620" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Intrusion detection&lt;/font&gt;" mermaidId="n:NS1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Intrusion detection" id="FnDpfGd2mt3DoNxQ3xRY-5">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-4" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="89.91701244813278" x="15.975103734439832" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;Firewall systems&lt;/font&gt;" mermaidId="n:NS2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Firewall systems" id="FnDpfGd2mt3DoNxQ3xRY-6">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-4" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="81.24481327800828" x="128.71369294605807" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="VPN &amp;amp; tunnelling" mermaidId="n:NS3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VPN &amp; tunnelling" id="FnDpfGd2mt3DoNxQ3xRY-7">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-4" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51" width="95.85" x="220" y="151.26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Zero trust models&lt;/font&gt;" mermaidId="n:NS4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Zero trust models" id="FnDpfGd2mt3DoNxQ3xRY-8">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-4" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="85.35269709543567" x="338.67219917012443" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 28px;&quot;&gt;Cryptography&lt;/font&gt;" mermaidId="n:CR" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Cryptography" id="FnDpfGd2mt3DoNxQ3xRY-14">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="400" width="540" x="130" y="-620" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Symmetric encryption&lt;/font&gt;" mermaidId="n:CR1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Symmetric encryption" id="FnDpfGd2mt3DoNxQ3xRY-15">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201673" width="118.48331648129424" x="19.110212335692626" y="151.26050420168065" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Public key infra.&lt;/font&gt;" mermaidId="n:CR2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Public key infra." id="FnDpfGd2mt3DoNxQ3xRY-16">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201673" width="97.18907987866532" x="164.89383215369062" y="151.26050420168065" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Hash functions&lt;/font&gt;" mermaidId="n:CR3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Hash functions" id="FnDpfGd2mt3DoNxQ3xRY-17">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51" width="99.47" x="280" y="151.26" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;Post-quantum crypto&lt;/font&gt;" mermaidId="n:CR4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Post-quantum crypto" id="FnDpfGd2mt3DoNxQ3xRY-18">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201673" width="114.11526794742164" x="406.77451971688583" y="151.26050420168065" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 30px;&quot;&gt;Application security&lt;/font&gt;" mermaidId="n:AS" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Application security" id="FnDpfGd2mt3DoNxQ3xRY-9">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="400" width="500" x="1430" y="-620" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Secure code review&lt;/font&gt;" mermaidId="n:AS1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Secure code review" id="FnDpfGd2mt3DoNxQ3xRY-10">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-9" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="105.70824524312897" x="18.49894291754757" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;Penetration testing&lt;/font&gt;" mermaidId="n:AS2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Penetration testing" id="FnDpfGd2mt3DoNxQ3xRY-11">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-9" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="104.65116279069768" x="150.6342494714588" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;OWASP standards&lt;/font&gt;" mermaidId="n:AS3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="OWASP standards" id="FnDpfGd2mt3DoNxQ3xRY-12">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-9" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="96.72304439746301" x="281.71247357293873" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;API security&lt;/font&gt;" mermaidId="n:AS4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="API security" id="FnDpfGd2mt3DoNxQ3xRY-13">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-9" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="181.51260504201682" width="76.63847780126851" x="404.86257928118397" y="151.26050420168067" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 28px;&quot;&gt;Identity &amp;amp; access&lt;/font&gt;" mermaidId="n:IA" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#1f3d0f;strokeColor=#4a9e2a;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Identity &amp; access" id="FnDpfGd2mt3DoNxQ3xRY-25">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#1f3d0f;strokeColor=#4a9e2a;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="365" width="440" x="830" y="-92.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;Multi-factor auth&lt;/font&gt;" mermaidId="n:IA1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Multi-factor auth" id="FnDpfGd2mt3DoNxQ3xRY-26">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-25" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="165.63025210084032" width="83.50364963503651" x="16.058394160583944" y="138.0252100840336" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="OAuth / SSO" mermaidId="n:IA2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="OAuth / SSO" id="FnDpfGd2mt3DoNxQ3xRY-27">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-25" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="165.63025210084032" width="67.90406673618354" x="110.00260688216895" y="138.0252100840336" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Privilege management&lt;/font&gt;" mermaidId="n:IA3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Privilege management" id="FnDpfGd2mt3DoNxQ3xRY-28">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-25" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="165.63" width="133.83" x="190" y="138.03" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 21px;&quot;&gt;Biometric systems&lt;/font&gt;" mermaidId="n:IA4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Biometric systems" id="FnDpfGd2mt3DoNxQ3xRY-29">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-25" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="165.63" width="93.94" x="330" y="138.03" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 27px;&quot;&gt;Policy &amp;amp; compliance&lt;/font&gt;" mermaidId="n:PC" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#5c1030;strokeColor=#c02a6e;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Policy &amp; compliance" id="FnDpfGd2mt3DoNxQ3xRY-30">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=#5c1030;strokeColor=#c02a6e;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="360" width="510" x="1430" y="-100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;GDPR / data laws&lt;/font&gt;" mermaidId="n:PC1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="GDPR / data laws" id="FnDpfGd2mt3DoNxQ3xRY-31">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-30" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="163.3613445378151" width="106.13048368953882" x="20.07874015748032" y="136.13445378151258" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 23px;&quot;&gt;ISO 27001&lt;/font&gt;" mermaidId="n:PC2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="ISO 27001" id="FnDpfGd2mt3DoNxQ3xRY-32">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-30" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="163.3613445378151" width="74.57817772778404" x="154.89313835770534" y="136.13445378151258" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;Risk assessment&lt;/font&gt;" mermaidId="n:PC3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Risk assessment" id="FnDpfGd2mt3DoNxQ3xRY-33">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-30" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="163.36" width="126.59" x="243.41" y="136.13" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 24px;&quot;&gt;Security auditing&lt;/font&gt;" mermaidId="n:PC4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Security auditing" id="FnDpfGd2mt3DoNxQ3xRY-34">
+          <mxCell parent="FnDpfGd2mt3DoNxQ3xRY-30" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#2a2a2a;strokeColor=#555;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="163.3613445378151" width="103.83577052868394" x="386.08548931383586" y="136.13445378151258" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="PEt8b1e5ClwhiwEU9Pis-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=light-dark(default, #450d0d);" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;RESEARCH DOMAIN&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;CYBERSECURITY&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="260" x="990" y="-800" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Emerging research areas&lt;/b&gt;&lt;br&gt;AI-powered cyber attacks&lt;br&gt;Quantum-resistant protocols&lt;br&gt;IoT / OT security&lt;/font&gt;" mermaidId="n:EMERGING" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#3a3a3a;strokeColor=#666;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Emerging research areas&lt;/b&gt;&#xa;AI-powered cyber attacks&#xa;Quantum-resistant protocols&#xa;IoT / OT security" id="FnDpfGd2mt3DoNxQ3xRY-36">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#3a3a3a;strokeColor=#666;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="175" width="374" x="350" y="600" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Related disciplines&lt;/b&gt;&lt;br&gt;Computer science&lt;br&gt;Law &amp;amp; ethics&lt;br&gt;Organisational behaviour&lt;/font&gt;" mermaidId="n:RELATED" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#3a3a3a;strokeColor=#666;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;Related disciplines&lt;/b&gt;&#xa;Computer science&#xa;Law &amp; ethics&#xa;Organisational behaviour" id="FnDpfGd2mt3DoNxQ3xRY-37">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#3a3a3a;strokeColor=#666;fontColor=light-dark(default, #450d0d);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=20;" vertex="1">
+            <mxGeometry height="180" width="380" x="1430" y="590" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3cfmXL58QQ6yGzk_lHse-1" edge="1" parent="1" source="FnDpfGd2mt3DoNxQ3xRY-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" target="FnDpfGd2mt3DoNxQ3xRY-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

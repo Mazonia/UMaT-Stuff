@@ -14,6 +14,7 @@
             --accent-purple: #8b5cf6;
             --accent-pink: #ec4899;
             --accent-emerald: #10b981;
+            --accent-gold: #f59e0b;
             --text-primary: #f8fafc;
             --text-secondary: #94a3b8;
         }
@@ -33,7 +34,7 @@
         }
 
         .header-container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto 3rem auto;
             text-align: center;
         }
@@ -65,15 +66,15 @@
         p.subtitle {
             font-size: 1.25rem;
             color: var(--text-secondary);
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
         }
 
         .projects-grid {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1.5rem;
         }
 
@@ -186,12 +187,86 @@
 <body>
 
     <div class="header-container">
-        <span class="badge">UMaT Consolidated Repository</span>
-        <h1>UMaT Software & Academic Projects</h1>
-        <p class="subtitle">Unified repository containing coursework, algorithmic suites, full-stack applications, and interactive web tools.</p>
+        <span class="badge">UMaT Unified Academic Repository</span>
+        <h1>UMaT Software, Cryptography & Modeling Portfolio</h1>
+        <p class="subtitle">Central repository combining computer science projects, Flutter mobile apps, cryptography & biometrics benchmarks, AnyLogic simulation models, full-stack web systems, and mathematical suites.</p>
     </div>
 
     <div class="projects-grid">
+        <!-- Cryptography & Biometrics -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-cyan);">🔐</div>
+                <h2 class="card-title">Cryptography & Biometrics Suite</h2>
+                <p class="card-desc">Pure Python implementations of RSA asymmetric encryption, DES symmetric block cipher, Miller-Rabin primality testing, and fingerprint biometric matching benchmarks.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">Python 3</span>
+                    <span class="tech-pill">RSA / DES</span>
+                    <span class="tech-pill">Biometrics</span>
+                </div>
+            </div>
+            <a href="cryptograph-biometrics/rsa.py" class="btn-launch">Explore Cryptography Code</a>
+        </div>
+
+        <!-- Mobile App Flutter -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-purple);">📱</div>
+                <h2 class="card-title">Mobile App (Flutter)</h2>
+                <p class="card-desc">Cross-platform mobile calculator application developed using Flutter & Dart featuring customized button widgets and responsive UI state management.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">Flutter</span>
+                    <span class="tech-pill">Dart</span>
+                    <span class="tech-pill">Mobile UI</span>
+                </div>
+            </div>
+            <a href="Mobile-App/calculator_app/lib/main.dart" class="btn-launch">Explore Flutter App</a>
+        </div>
+
+        <!-- AnyLogic Simulation -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-gold);">⚙️</div>
+                <h2 class="card-title">AnyLogic Simulation Models</h2>
+                <p class="card-desc">System dynamics and agent-based simulation models including Bank Branch Teller queueing, Epidemic disease propagation, Smart Factory, and Traffic junction models.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">AnyLogic</span>
+                    <span class="tech-pill">Simulation & Modeling</span>
+                    <span class="tech-pill">Agent-Based</span>
+                </div>
+            </div>
+            <a href="simulation-projects-anylogic/" class="btn-launch">Browse Models</a>
+        </div>
+
+        <!-- Inventory System -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-emerald);">📦</div>
+                <h2 class="card-title">Smart Inventory System Architecture</h2>
+                <p class="card-desc">System analysis and design specifications including ER diagrams, Context diagrams, detailed process flowcharts, use cases, and testing models.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">System Architecture</span>
+                    <span class="tech-pill">ERD / Flowcharts</span>
+                    <span class="tech-pill">UML</span>
+                </div>
+            </div>
+            <a href="inventory-system/" class="btn-launch">View Design Artifacts</a>
+        </div>
+
+        <!-- Level 300 Assignments -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-pink);">🎓</div>
+                <h2 class="card-title">Level 300 Coursework</h2>
+                <p class="card-desc">Academic coursework materials and lab assignments for Simulation and Modeling (Sim and Mod).</p>
+                <div class="card-tech">
+                    <span class="tech-pill">Coursework</span>
+                    <span class="tech-pill">Sim & Modeling</span>
+                </div>
+            </div>
+            <a href="level-300/" class="btn-launch">Browse Coursework</a>
+        </div>
+
         <!-- OOP Quiz -->
         <div class="project-card">
             <div>

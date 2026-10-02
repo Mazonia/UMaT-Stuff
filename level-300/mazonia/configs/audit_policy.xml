@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditPolicy xmlns="http://schemas.microsoft.com/AuditPolicy/2026">
+  <Category name="Account Management">
+    <Subcategory name="User Account Management" auditSuccess="true" auditFailure="true"/>
+    <Subcategory name="Security Group Management" auditSuccess="true" auditFailure="true"/>
+  </Category>
+  <Category name="DS Access">
+    <Subcategory name="Directory Service Access" auditSuccess="true" auditFailure="true"/>
+    <Subcategory name="Directory Service Changes" auditSuccess="true" auditFailure="true"/>
+  </Category>
+  <Category name="Privilege Use">
+    <Subcategory name="Sensitive Privilege Use" auditSuccess="true" auditFailure="true"/>
+  </Category>
+  <Category name="Logon/Logoff">
+    <Subcategory name="Logon" auditSuccess="true" auditFailure="true"/>
+    <Subcategory name="Special Logon" auditSuccess="true" auditFailure="false"/>
+  </Category>
+</AuditPolicy>

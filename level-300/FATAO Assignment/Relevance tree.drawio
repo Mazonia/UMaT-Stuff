@@ -1,0 +1,287 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="AFTw3FrmE2_RBbBVmeF7">
+    <mxGraphModel dx="1571" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TD\n    Root[\&quot;Climate change\&quot;]\n\n    Root --&gt; Causes[\&quot;Causes\&quot;]\n    Root --&gt; Effects[\&quot;Effects\&quot;]\n    Root --&gt; Responses[\&quot;Responses\&quot;]\n\n    Causes --&gt; Fossil[\&quot;Fossil fuels\&quot;]\n    Causes --&gt; Defor[\&quot;Deforestation\&quot;]\n    Causes --&gt; Agri[\&quot;Agriculture\&quot;]\n\n    Effects --&gt; Temp[\&quot;Temperature\&quot;]\n    Effects --&gt; Sea[\&quot;Sea level\&quot;]\n    Effects --&gt; Eco[\&quot;Ecosystems\&quot;]\n\n    Responses --&gt; Mitig[\&quot;Mitigation\&quot;]\n    Responses --&gt; Adapt[\&quot;Adaptation\&quot;]\n    Responses --&gt; Policy[\&quot;Policy\&quot;]\n\n    Fossil --&gt; CO2[\&quot;CO2 emissions\&quot;]\n    Fossil --&gt; Coal[\&quot;Coal / Oil / Gas\&quot;]\n    Defor --&gt; CarbonSink[\&quot;Carbon sink loss\&quot;]\n    Agri --&gt; Methane[\&quot;Methane / N2O\&quot;]\n\n    Temp --&gt; Heat[\&quot;Heat waves\&quot;]\n    Sea --&gt; IceCap[\&quot;Ice caps\&quot;]\n    Eco --&gt; Displace[\&quot;Displacement\&quot;]\n    Eco --&gt; Biodiv[\&quot;Biodiversity\&quot;]\n    Eco --&gt; Ocean[\&quot;Ocean acidification\&quot;]\n\n    Mitig --&gt; Renew[\&quot;Renewables\&quot;]\n    Adapt --&gt; CarbonCapture[\&quot;Carbon capture\&quot;]\n    Policy --&gt; Paris[\&quot;Climate Pact / Paris\&quot;]\n    Policy --&gt; Pricing[\&quot;Carbon pricing\&quot;]\n\n    CO2 -.-&gt; Green[\&quot;Greenhouse effect\&quot;]\n    Displace -.-&gt; Coastal[\&quot;Coastal erosion\&quot;]\n    Renew -.-&gt; Solar[\&quot;Solar / wind\&quot;]\n\n    classDef root fill:#1a9c78,stroke:#0f6b52,color:#fff,font-weight:bold\n    classDef level1 fill:#1e5c4a,stroke:#123a30,color:#a8d8c8\n    classDef level2 fill:#a8760f,stroke:#7a5608,color:#f5e0a8\n    classDef level2alt fill:#4b3f9e,stroke:#332a72,color:#d6d0f5\n    classDef level34 fill:#4a4a4a,stroke:#2e2e2e,color:#d8d8d8\n\n    class Root root\n    class Causes,Effects,Responses level1\n    class Fossil,Defor,Agri,Temp,Sea,Eco level2\n    class Mitig,Adapt,Policy level2alt\n    class CO2,Coal,CarbonSink,Methane,Heat,IceCap,Displace,Biodiv,Ocean,Renew,CarbonCapture,Paris,Pricing,Green,Coastal,Solar level34&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="gUGt2_QxYeO3Rae7q4yO-107">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;imageAspect=1;resizeWidth=1;" vertex="1">
+            <mxGeometry height="580" width="2000" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-190" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;curved=0;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-195" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-196" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Climate change" mermaidId="n:Root" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1a9c78;strokeColor=#0f6b52;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontStyle=1;" mermaidBaseValue="Climate change" id="gUGt2_QxYeO3Rae7q4yO-108">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1a9c78;strokeColor=#0f6b52;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontStyle=1;" vertex="1">
+            <mxGeometry height="54" width="171" x="680" y="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-166" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-172" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-173" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Causes" mermaidId="n:Causes" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Causes" id="gUGt2_QxYeO3Rae7q4yO-109">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="108" x="182" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-175" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-176" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-183" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1278" y="260" />
+              <mxPoint x="1274" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Effects" mermaidId="n:Effects" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Effects" id="gUGt2_QxYeO3Rae7q4yO-110">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="110" x="1250" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-185" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-186" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Responses" mermaidId="n:Responses" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Responses" id="gUGt2_QxYeO3Rae7q4yO-111">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#1e5c4a;strokeColor=#123a30;fontColor=#a8d8c8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="132" x="699.5" y="430.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-170" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-171" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#d80073;strokeColor=#A50040;" target="gUGt2_QxYeO3Rae7q4yO-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Fossil fuels" mermaidId="n:Fossil" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Fossil fuels" id="gUGt2_QxYeO3Rae7q4yO-112">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="30" width="130" x="30" y="290" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Deforestation" mermaidId="n:Defor" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Deforestation" id="gUGt2_QxYeO3Rae7q4yO-113">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="31" width="140" x="250" y="290" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Agriculture" mermaidId="n:Agri" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Agriculture" id="gUGt2_QxYeO3Rae7q4yO-114">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="38.5" width="130" x="400" y="282.25" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-192" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Temperature" mermaidId="n:Temp" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Temperature" id="gUGt2_QxYeO3Rae7q4yO-115">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="45.5" width="110" x="1070" y="269" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Sea level" mermaidId="n:Sea" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Sea level" id="gUGt2_QxYeO3Rae7q4yO-116">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="34" width="88" x="1230" y="280.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-179" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-180" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-181" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Ecosystems" mermaidId="n:Eco" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Ecosystems" id="gUGt2_QxYeO3Rae7q4yO-117">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#a8760f;strokeColor=#7a5608;fontColor=#f5e0a8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="27.75" width="110" x="1408" y="270.62" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mitigation" mermaidId="n:Mitig" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Mitigation" id="gUGt2_QxYeO3Rae7q4yO-118">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="132" x="498" y="540" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Adaptation" mermaidId="n:Adapt" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Adaptation" id="gUGt2_QxYeO3Rae7q4yO-119">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="139" x="696" y="540" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-187" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUGt2_QxYeO3Rae7q4yO-188" edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Policy" mermaidId="n:Policy" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Policy" id="gUGt2_QxYeO3Rae7q4yO-120">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4b3f9e;strokeColor=#332a72;fontColor=#d6d0f5;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="102" x="954" y="544" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CO2 emissions" mermaidId="n:CO2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="CO2 emissions" id="gUGt2_QxYeO3Rae7q4yO-121">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="34" width="130" x="20" y="408" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Coal / Oil / Gas" mermaidId="n:Coal" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Coal / Oil / Gas" id="gUGt2_QxYeO3Rae7q4yO-122">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="32" width="130" x="160" y="408" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Carbon sink loss" mermaidId="n:CarbonSink" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Carbon sink loss" id="gUGt2_QxYeO3Rae7q4yO-123">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="30" width="130" x="255" y="461.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Methane / N2O" mermaidId="n:Methane" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Methane / N2O" id="gUGt2_QxYeO3Rae7q4yO-124">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="34" width="140" x="395" y="405.75" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Heat waves" mermaidId="n:Heat" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Heat waves" id="gUGt2_QxYeO3Rae7q4yO-125">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="30" width="120" x="1070" y="395" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ice caps" mermaidId="n:IceCap" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Ice caps" id="gUGt2_QxYeO3Rae7q4yO-126">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="108" x="1220" y="396.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Displacement" mermaidId="n:Displace" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Displacement" id="gUGt2_QxYeO3Rae7q4yO-127">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="32" width="147" x="1371" y="401.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Biodiversity" mermaidId="n:Biodiv" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Biodiversity" id="gUGt2_QxYeO3Rae7q4yO-128">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="30" width="124" x="1260" y="454.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ocean acidification" mermaidId="n:Ocean" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Ocean acidification" id="gUGt2_QxYeO3Rae7q4yO-129">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="41" width="130" x="1535" y="450.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Renewables" mermaidId="n:Renew" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Renewables" id="gUGt2_QxYeO3Rae7q4yO-130">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="144" x="492" y="655.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Carbon capture" mermaidId="n:CarbonCapture" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Carbon capture" id="gUGt2_QxYeO3Rae7q4yO-131">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="50" width="150" x="690.5" y="653.62" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Climate Pact / Paris" mermaidId="n:Paris" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Climate Pact / Paris" id="gUGt2_QxYeO3Rae7q4yO-132">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="49.88" width="160" x="864" y="654.62" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Carbon pricing" mermaidId="n:Pricing" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Carbon pricing" id="gUGt2_QxYeO3Rae7q4yO-133">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="50.88" width="160" x="1056" y="653.62" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Greenhouse effect" mermaidId="n:Green" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Greenhouse effect" id="gUGt2_QxYeO3Rae7q4yO-134">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="40" width="130" x="20" y="520" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Coastal erosion" mermaidId="n:Coastal" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Coastal erosion" id="gUGt2_QxYeO3Rae7q4yO-135">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="169" x="1360" y="500.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Solar / wind" mermaidId="n:Solar" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Solar / wind" id="gUGt2_QxYeO3Rae7q4yO-136">
+          <mxCell parent="gUGt2_QxYeO3Rae7q4yO-107" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#4a4a4a;strokeColor=#2e2e2e;fontColor=#d8d8d8;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="148" x="490" y="771.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Responses-&gt;Adapt#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-147">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-111" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#006EAF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#1ba1e2;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-119">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Defor-&gt;CarbonSink#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-151">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-113" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#A50040;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#d80073;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-123">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Agri-&gt;Methane#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-152">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-114" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#A50040;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#d80073;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-124">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Sea-&gt;IceCap#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-154">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-116" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#A50040;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;strokeWidth=3;fillColor=#d80073;" target="gUGt2_QxYeO3Rae7q4yO-126">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Mitig-&gt;Renew#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-158">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-118" style="curved=1;startArrow=none;endArrow=block;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-130">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Adapt-&gt;CarbonCapture#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-159">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-119" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#A50040;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#d80073;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-131">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:CO2-&gt;Green#0" mermaidBaseStyle="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-162">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-121" style="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#B09500;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e3c800;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-134">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+              <mxPoint x="80" y="450" as="sourcePoint" />
+              <mxPoint x="126.5" y="546" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Displace-&gt;Coastal#0" mermaidBaseStyle="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-163">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-127" style="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#BD7000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#f0a30a;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-135">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Renew-&gt;Solar#0" mermaidBaseStyle="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="gUGt2_QxYeO3Rae7q4yO-164">
+          <mxCell edge="1" parent="gUGt2_QxYeO3Rae7q4yO-107" source="gUGt2_QxYeO3Rae7q4yO-130" style="curved=1;dashed=1;dashPattern=2 3;fixDash=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#B09500;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#e3c800;strokeWidth=3;" target="gUGt2_QxYeO3Rae7q4yO-136">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

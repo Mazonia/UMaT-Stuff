@@ -1,0 +1,113 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="dDGA8nSkk7fD6AlHzT0t">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;---\ntitle: Spider Diagram: Cybersecurity × Climate Change\n---\nradar-beta\n  axis dataSecurity[\&quot;Data security\&quot;], aiPredictions[\&quot;AI predictions\&quot;], dataCentre[\&quot;Data centre efficiency\&quot;], smartGrid[\&quot;Smart grid attacks\&quot;], policyLaw[\&quot;Policy &amp; law\&quot;], iotSensor[\&quot;IoT sensor security\&quot;], greenComputing[\&quot;Green computing\&quot;], resilience[\&quot;Resilience\&quot;]\n  curve cyberClimate[\&quot;Cyber-Climate Nexus\&quot;]{85, 80, 75, 78, 82, 70, 65, 60}\n  max 100\n  min 0&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="XOVzBO7dmfrSN9-ncU-j-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;fontSize=22;fontColor=#666600;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-3" parent="XOVzBO7dmfrSN9-ncU-j-1" style="ellipse;fillColor=#DEDEDE;opacity=30;strokeColor=#DEDEDE;strokeWidth=1;fontSize=22;fontColor=#666600;" value="" vertex="1">
+          <mxGeometry height="480" width="480" x="360" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-4" parent="XOVzBO7dmfrSN9-ncU-j-1" style="ellipse;fillColor=#DEDEDE;opacity=30;strokeColor=#DEDEDE;strokeWidth=1;fontSize=22;fontColor=#666600;" value="" vertex="1">
+          <mxGeometry height="360" width="360" x="420" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-5" parent="XOVzBO7dmfrSN9-ncU-j-1" style="ellipse;fillColor=#DEDEDE;opacity=30;strokeColor=#DEDEDE;strokeWidth=1;fontSize=22;fontColor=#666600;" value="" vertex="1">
+          <mxGeometry height="240" width="240" x="480" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-6" parent="XOVzBO7dmfrSN9-ncU-j-1" style="ellipse;fillColor=#DEDEDE;opacity=30;strokeColor=#DEDEDE;strokeWidth=1;fontSize=22;fontColor=#666600;" value="" vertex="1">
+          <mxGeometry height="120" width="120" x="540" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-7" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="600" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-8" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="812.1320343559643" y="239.86796564403576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-9" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="900" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-10" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="812.1320343559643" y="664.1320343559643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-11" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="600" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-12" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="387.86796564403573" y="664.1320343559643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-13" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="300" y="452.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-14" edge="1" parent="XOVzBO7dmfrSN9-ncU-j-1" style="endArrow=none;html=1;strokeColor=light-dark(#333333,#cccccc);strokeWidth=2;rounded=0;fontSize=22;fontColor=#666600;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="452" as="sourcePoint" />
+            <mxPoint x="387.86796564403573" y="239.86796564403576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-15" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Data security" vertex="1">
+          <mxGeometry height="18" width="80" x="560" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-16" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="AI predictions" vertex="1">
+          <mxGeometry height="18" width="80" x="783" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-17" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Data centre efficiency" vertex="1">
+          <mxGeometry height="18" width="80" x="885" y="426.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-18" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Smart grid attacks" vertex="1">
+          <mxGeometry height="18" width="80" x="783" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-19" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Policy &amp;amp; law" vertex="1">
+          <mxGeometry height="18" width="80" x="560" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-20" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="IoT sensor security" vertex="1">
+          <mxGeometry height="18" width="80" x="337" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-21" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Green computing" vertex="1">
+          <mxGeometry height="18" width="80" x="220" y="426.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-22" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=middle;" value="Resilience" vertex="1">
+          <mxGeometry height="18" width="80" x="337" y="213" as="geometry" />
+        </mxCell>
+        <UserObject label="" mermaidId="n:curve:Cyber-Climate Nexus" mermaidBaseStyle="shape=image;html=1;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNjIwIj48cGF0aCBkPSJNMzEwLjAwMCw1NS4wMDAgQzM1OS40OTcsNDcuOTI5IDQ0Mi4yMDYsOTcuNzk0IDQ3OS43MDYsMTQwLjI5NCBDNTE3LjIwNiwxODIuNzk0IDUzNS43MDcsMjU0LjEzOSA1MzUuMDAwLDMxMC4wMDAgQzUzNC4yOTMsMzY1Ljg2MSA1MTIuOTYzLDQzNC40NjMgNDc1LjQ2Myw0NzUuNDYzIEM0MzcuOTYzLDUxNi40NjMgMzYyLjMyNiw1NTguODI4IDMxMC4wMDAsNTU2LjAwMCBDMjU3LjY3NCw1NTMuMTcyIDE5NC4wMDgsNDk5LjQ5MiAxNjEuNTA4LDQ1OC40OTIgQzEyOS4wMDgsNDE3LjQ5MiAxMTEuNDY0LDM1NS45NjIgMTE1LjAwMCwzMTAuMDAwIEMxMTguNTM2LDI2NC4wMzggMTUwLjIyMSwyMjUuMjIxIDE4Mi43MjEsMTgyLjcyMSBDMjE1LjIyMSwxNDAuMjIxIDI2MC41MDMsNjIuMDcxIDMxMC4wMDAsNTUuMDAwIFoiIGZpbGw9IiM4Njg2ZmYiIGZpbGwtb3BhY2l0eT0iMC41IiBzdHJva2U9IiM4Njg2ZmYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==;" mermaidBaseValue="" id="XOVzBO7dmfrSN9-ncU-j-23">
+          <mxCell parent="XOVzBO7dmfrSN9-ncU-j-1" style="shape=image;html=1;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MjAgNjIwIj48cGF0aCBkPSJNMzEwLjAwMCw1NS4wMDAgQzM1OS40OTcsNDcuOTI5IDQ0Mi4yMDYsOTcuNzk0IDQ3OS43MDYsMTQwLjI5NCBDNTE3LjIwNiwxODIuNzk0IDUzNS43MDcsMjU0LjEzOSA1MzUuMDAwLDMxMC4wMDAgQzUzNC4yOTMsMzY1Ljg2MSA1MTIuOTYzLDQzNC40NjMgNDc1LjQ2Myw0NzUuNDYzIEM0MzcuOTYzLDUxNi40NjMgMzYyLjMyNiw1NTguODI4IDMxMC4wMDAsNTU2LjAwMCBDMjU3LjY3NCw1NTMuMTcyIDE5NC4wMDgsNDk5LjQ5MiAxNjEuNTA4LDQ1OC40OTIgQzEyOS4wMDgsNDE3LjQ5MiAxMTEuNDY0LDM1NS45NjIgMTE1LjAwMCwzMTAuMDAwIEMxMTguNTM2LDI2NC4wMzggMTUwLjIyMSwyMjUuMjIxIDE4Mi43MjEsMTgyLjcyMSBDMjE1LjIyMSwxNDAuMjIxIDI2MC41MDMsNjIuMDcxIDMxMC4wMDAsNTUuMDAwIFoiIGZpbGw9IiM4Njg2ZmYiIGZpbGwtb3BhY2l0eT0iMC41IiBzdHJva2U9IiM4Njg2ZmYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==;fontSize=22;fontColor=#666600;" vertex="1">
+            <mxGeometry height="620" width="620" x="282.5" y="142" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-24" parent="XOVzBO7dmfrSN9-ncU-j-1" style="rounded=0;fillColor=#8686ff;strokeColor=#8686ff;fillOpacity=50;fontSize=22;fontColor=#666600;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="863" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-25" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=left;verticalAlign=middle;" value="Cyber-Climate Nexus" vertex="1">
+          <mxGeometry height="16" width="80" x="879" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="XOVzBO7dmfrSN9-ncU-j-26" parent="XOVzBO7dmfrSN9-ncU-j-1" style="text;html=1;strokeColor=none;fillColor=none;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=22;fontColor=#666600;align=center;verticalAlign=top;" value="&lt;div style=&quot;position:relative;top:-12px;&quot;&gt;Spider Diagram: Cybersecurity × Climate Change&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="400" x="400" y="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

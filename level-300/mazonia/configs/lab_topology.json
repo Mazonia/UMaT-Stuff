@@ -1,0 +1,33 @@
+{
+  "domain": "INLANEFREIGHT.LOCAL",
+  "subnet": "172.16.8.0/24",
+  "domain_controllers": [
+    {
+      "hostname": "DC01",
+      "ip": "172.16.8.3",
+      "os": "Windows Server 2019 Datacenter",
+      "roles": ["Active Directory Domain Controller", "DNS", "Kerberos KDC"]
+    }
+  ],
+  "member_servers": [
+    {
+      "hostname": "MS01",
+      "ip": "172.16.8.50",
+      "os": "Windows Server 2019 Standard",
+      "roles": ["WinRM Host", "SQL Express Backup Target", "Sysax Automation Host"]
+    }
+  ],
+  "pivot_hosts": [
+    {
+      "hostname": "DEV01 / DMZ01",
+      "ip": "172.16.8.10",
+      "os": "Ubuntu 22.04 LTS",
+      "roles": ["Web Application Pivot", "DotNetNuke Host"]
+    }
+  ],
+  "assessment_station": {
+    "hostname": "Attacker Workstation",
+    "ip": "172.16.8.100",
+    "os": "Kali Linux 2026.2"
+  }
+}

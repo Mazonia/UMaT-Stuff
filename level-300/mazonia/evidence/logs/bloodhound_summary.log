@@ -1,0 +1,10 @@
+[+] BloodHound Python Collector v1.7.2
+[+] Enumerating domain inlanefreight.local
+[+] Connecting to LDAP server: 172.16.8.3:389
+[+] Authenticated as hporter@inlanefreight.local
+[+] Found 12 Users, 18 Groups, 4 Computers, 2 OUs, 1 Domain
+[+] Found critical ACL path: User hporter has ForceChangePassword over User ssmalls
+[+] Found critical ACL path: User mssqladm has GenericWrite over User ttimmons
+[+] Found critical ACL path: User ttimmons has GenericAll over Group Server Admins
+[+] Found critical ACL path: Group Server Admins has GetChanges/GetChangesAll over Domain INLANEFREIGHT.LOCAL
+[+] Zip package generated: 20260726101230_bloodhound.zip
