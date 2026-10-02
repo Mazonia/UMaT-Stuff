@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMaT Web Programming Quiz & Layout Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(22, 31, 48, 0.8);
+            --accent-glow: #6366f1;
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .hero-banner {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            padding: 3rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.3);
+        }
+
+        .hero-banner h1 {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem 0;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-banner p {
+            font-size: 1.1rem;
+            color: #e0e7ff;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: -1.5rem auto 2rem auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        .tab-btn {
+            background: rgba(30, 41, 59, 0.9);
+            color: #94a3b8;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 0.75rem 1.75rem;
+            border-radius: 9999px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            transition: all 0.25s ease;
+        }
+
+        .tab-btn.active, .tab-btn:hover {
+            background: #6366f1;
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        .section-container {
+            max-width: 900px;
+            margin: 0 auto 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .quiz-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(12px);
+        }
+
+        .quiz-option {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 1.25rem;
+            border-radius: 10px;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .quiz-option:hover {
+            background: rgba(99, 102, 241, 0.15);
+            border-color: #6366f1;
+        }
+
+        .quiz-option.correct {
+            background: rgba(16, 185, 129, 0.2) !important;
+            border-color: #10b981 !important;
+            color: #6ee7b7;
+        }
+
+        .quiz-option.incorrect {
+            background: rgba(239, 68, 68, 0.2) !important;
+            border-color: #ef4444 !important;
+            color: #fca5a5;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #6366f1, #a855f7);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+    <div class="hero-banner">
+        <h1>UMaT Web Programming Interactive Portal</h1>
+        <p>Master HTML5, CSS Layouts, Responsive Web Design & Web Standards</p>
+    </div>
+
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="showTab('quiz')">Interactive Quiz</button>
+        <button class="tab-btn" onclick="showTab('blog-showcase')">Classic Layout Showcase</button>
+    </div>
+
+    <div class="section-container">
+        <!-- Interactive Quiz Section -->
+        <div id="quiz-section" class="quiz-card">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            
+            <div id="quiz-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+                <span id="question-counter" style="color:var(--text-secondary); font-weight:600;">Question 1 of 5</span>
+                <span id="score-counter" style="color:#10b981; font-weight:700;">Score: 0</span>
+            </div>
+
+            <div id="quiz-body">
+                <h2 id="question-text" style="font-size:1.3rem; margin-bottom:1.5rem; color:#ffffff;">Loading question...</h2>
+                <div id="options-container"></div>
+            </div>
+
+            <div id="result-box" class="hidden" style="text-align:center; padding:2rem 0;">
+                <h2 style="font-size:2rem; color:#10b981; margin-bottom:1rem;">Quiz Completed! 🎉</h2>
+                <p id="final-score-text" style="font-size:1.2rem; color:var(--text-secondary); margin-bottom:1.5rem;"></p>
+                <button class="tab-btn active" onclick="restartQuiz()">Try Again</button>
+            </div>
+        </div>
+
+        <!-- Classic Blog Showcase Section -->
+        <div id="blog-showcase-section" class="hidden">
+            <div class="background">
+                <div class="container">
+                    <header class="headerContainer">
+                        <div class="myHeader">
+                            <span><h1><a href="#">doneci</a></h1></span> 
+                            <span><h2><a href="#">by ENOCH ODURO (UMaT Web Coursework)</a></h2></span>
+                        </div>
+                        <div class="headerList">
+                            <ul>
+                                <li class="first"><a href="#">My Blog</a></li>
+                                <li><a href="#">My Photos</a></li>
+                                <li><a href="#">My Favorites</a></li>
+                                <li><a href="#">About Me</a></li>
+                                <li class="last"><a href="#">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </header>
+                    <div class="content">
+                        <div class="col">
+                            <hr>   
+                            <div class="content1">
+                                <strong><span id="span1">Welcome to Doneci Blog Showcase!</span><br></strong>
+                                <span id="span2">Posted on January 11th, 2022 by Author</span>
+                                <p>Nulla facilisi. Mauris diam justo, pharetra nec, varius viverra, luctus sed, arcu. Aliquam feugiat venenatis metus.</p>
+                                <p>Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">1 Comment &raquo;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="myFooter">
+                        <p>Copyright &copy; 2022-2026. Designed by <strong>ENOCH ODURO</strong></p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                question: "Which HTML5 element is used to define navigation links?",
+                options: ["<nav>", "<header>", "<section>", "<aside>"],
+                answer: 0
+            },
+            {
+                question: "What does the CSS property 'box-sizing: border-box;' do?",
+                options: [
+                    "Includes padding and border in the element's total width and height",
+                    "Adds a border around the element",
+                    "Excludes padding from height calculation",
+                    "Centers the block element horizontally"
+                ],
+                answer: 0
+            },
+            {
+                question: "Which CSS Flexbox property controls the alignment of items along the main axis?",
+                options: ["align-items", "justify-content", "flex-direction", "align-content"],
+                answer: 1
+            },
+            {
+                question: "What is the primary function of semantic HTML tags?",
+                options: [
+                    "To make web pages render faster",
+                    "To give meaning to web page structure for accessibility and SEO",
+                    "To add CSS styling automatically",
+                    "To execute JavaScript code safely"
+                ],
+                answer: 1
+            },
+            {
+                question: "Which media query syntax correctly targets screens narrower than 768px?",
+                options: [
+                    "@media (max-width: 768px)",
+                    "@media (min-width: 768px)",
+                    "@media screen and (width < 768)",
+                    "@device (max-width: 768px)"
+                ],
+                answer: 0
+            }
+        ];
+
+        let currentQ = 0;
+        let score = 0;
+
+        function loadQuestion() {
+            const q = questions[currentQ];
+            document.getElementById('question-counter').innerText = `Question ${currentQ + 1} of ${questions.length}`;
+            document.getElementById('question-text').innerText = q.question;
+            document.getElementById('progress-fill').style.width = `${((currentQ) / questions.length) * 100}%`;
+            
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            
+            q.options.forEach((opt, idx) => {
+                const div = document.createElement('div');
+                div.className = 'quiz-option';
+                div.innerHTML = `<span style="font-weight:700; color:#6366f1;">${String.fromCharCode(65 + idx)}.</span> ${opt}`;
+                div.onclick = () => selectOption(idx, div);
+                container.appendChild(div);
+            });
+        }
+
+        function selectOption(idx, el) {
+            const q = questions[currentQ];
+            const allOptions = document.querySelectorAll('.quiz-option');
+            allOptions.forEach(opt => opt.onclick = null);
+
+            if (idx === q.answer) {
+                el.classList.add('correct');
+                score++;
+                document.getElementById('score-counter').innerText = `Score: ${score}`;
+            } else {
+                el.classList.add('incorrect');
+                allOptions[q.answer].classList.add('correct');
+            }
+
+            setTimeout(() => {
+                currentQ++;
+                if (currentQ < questions.length) {
+                    loadQuestion();
+                } else {
+                    showResults();
+                }
+            }, 1200);
+        }
+
+        function showResults() {
+            document.getElementById('progress-fill').style.width = '100%';
+            document.getElementById('quiz-body').classList.add('hidden');
+            document.getElementById('quiz-header').classList.add('hidden');
+            document.getElementById('result-box').classList.remove('hidden');
+            document.getElementById('final-score-text').innerText = `You scored ${score} out of ${questions.length} (${Math.round((score / questions.length) * 100)}%)`;
+        }
+
+        function restartQuiz() {
+            currentQ = 0;
+            score = 0;
+            document.getElementById('score-counter').innerText = `Score: 0`;
+            document.getElementById('quiz-body').classList.remove('hidden');
+            document.getElementById('quiz-header').classList.remove('hidden');
+            document.getElementById('result-box').classList.add('hidden');
+            loadQuestion();
+        }
+
+        function showTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            if (tab === 'quiz') {
+                document.querySelectorAll('.tab-btn')[0].classList.add('active');
+                document.getElementById('quiz-section').classList.remove('hidden');
+                document.getElementById('blog-showcase-section').classList.add('hidden');
+            } else {
+                document.querySelectorAll('.tab-btn')[1].classList.add('active');
+                document.getElementById('quiz-section').classList.add('hidden');
+                document.getElementById('blog-showcase-section').classList.remove('hidden');
+            }
+        }
+
+        // Initialize quiz
+        loadQuestion();
+    </script>
+</body>
+</html>

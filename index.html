@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMaT Academic & Software Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #090d16;
+            --card-bg: rgba(18, 26, 43, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-cyan: #06b6d4;
+            --accent-purple: #8b5cf6;
+            --accent-pink: #ec4899;
+            --accent-emerald: #10b981;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 15% 15%, rgba(6, 182, 212, 0.12) 0px, transparent 40%),
+                radial-gradient(at 85% 85%, rgba(139, 92, 246, 0.12) 0px, transparent 40%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 3rem 1.5rem;
+            line-height: 1.6;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto 3rem auto;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            padding: 0.35rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        p.subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .projects-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(16px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 4px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .card-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #ffffff;
+        }
+
+        .card-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .card-tech {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-pill {
+            background: rgba(255, 255, 255, 0.06);
+            color: #cbd5e1;
+            padding: 0.25rem 0.65rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .btn-launch {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-launch:hover {
+            background: var(--accent-cyan);
+            color: #090d16;
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <span class="badge">UMaT Consolidated Repository</span>
+        <h1>UMaT Software & Academic Projects</h1>
+        <p class="subtitle">Unified repository containing coursework, algorithmic suites, full-stack applications, and interactive web tools.</p>
+    </div>
+
+    <div class="projects-grid">
+        <!-- OOP Quiz -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-purple);">🐾</div>
+                <h2 class="card-title">OOP Wild Farm Quiz</h2>
+                <p class="card-desc">Comprehensive Python Object-Oriented Programming (OOP) farm simulation featuring abstract classes, inheritance, polymorphism, and automated unit testing.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">Python 3</span>
+                    <span class="tech-pill">OOP</span>
+                    <span class="tech-pill">Unittest</span>
+                </div>
+            </div>
+            <a href="OOP-Quiz/main.py" class="btn-launch">Explore Code & CLI</a>
+        </div>
+
+        <!-- Maths with Python -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-cyan);">🧮</div>
+                <h2 class="card-title">Maths with Python Suite</h2>
+                <p class="card-desc">Collection of mathematical algorithms including Fibonacci generators, Armstrong checks, prime testings, matrix ops, and statistical routines.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">Python 3</span>
+                    <span class="tech-pill">Math Algorithms</span>
+                    <span class="tech-pill">Type Hints</span>
+                </div>
+            </div>
+            <a href="Maths-with-python/math_suite.py" class="btn-launch">Explore Math Suite</a>
+        </div>
+
+        <!-- CRUD App -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-emerald);">⚡</div>
+                <h2 class="card-title">User Management CRUD</h2>
+                <p class="card-desc">Modern glassmorphism user management portal featuring secure authentication, password hashing, prepared statements, and user admin tools.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">PHP</span>
+                    <span class="tech-pill">MySQL</span>
+                    <span class="tech-pill">Glassmorphism CSS</span>
+                </div>
+            </div>
+            <a href="crud_app/index.php" class="btn-launch">Launch App</a>
+        </div>
+
+        <!-- Web Programming Quiz -->
+        <div class="project-card">
+            <div>
+                <div class="card-icon" style="color:var(--accent-pink);">🌐</div>
+                <h2 class="card-title">Web Programming Quiz & Portal</h2>
+                <p class="card-desc">Interactive HTML5/CSS3 quiz application and responsive layout showcase designed for testing web development fundamentals.</p>
+                <div class="card-tech">
+                    <span class="tech-pill">HTML5</span>
+                    <span class="tech-pill">CSS3 Flexbox</span>
+                    <span class="tech-pill">JavaScript</span>
+                </div>
+            </div>
+            <a href="Web-Programming-Quiz/index.html" class="btn-launch">Launch Interactive Quiz</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Mazonia / UMaT Academic Collection. Maintained under open source guidelines.</p>
+    </footer>
+
+</body>
+</html>

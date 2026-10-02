@@ -1,0 +1,75 @@
+<h1><a href="#">Doneci</a></h1>
+<h2><a href="#">by [YOUR NAME HERE]</a></h2>
+
+
+<ul>
+  <li class="first"><a href="#">My Blog</a></li>
+  <li><a href="#">My Photos</a></li>
+  <li><a href="#">My Favorites</a></li>
+  <li><a href="#">About Me</a></li>
+  <li><a href="#">Contact Me</a></li>
+</ul>
+
+Welcome to Doneci!
+Posted on January 11th, 2022 by Author
+
+<p>Nulla facilisi. <a href="#">Mauris diam justo</a>, pharetra nec, varius viverra, luctus sed, arcu. Aliquam feugiat venenatis metus. In justo dolor, adipiscing a, <a href="#">commodo id</a>, congue sed, est. Suspendisse vel dolor tristique nisl tristique vulputate. <a href="#">Proin blandit risus at leo</a>. Etiam sit amet magna in mi suscipit pharetra.</p>
+
+<p>Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">1 Comment &raquo;</a></p>
+
+Sample Tags
+Posted on January 1st, 2021 by Author
+
+<p>An unordered list:</p>
+<ul>
+  <li><a href="#">Suspendisse quis gravida massa felis.</a></li>
+  <li><a href="#">Vivamus sagittis bibendum erat.</a></li>
+  <li><a href="#">Nullam et orci in erat viverra ornare.</a></li>
+</ul>
+
+<p>An ordered list:</p>
+<ol>
+  <li><a href="#">Nullam et orci in erat viverra ornare.</a></li>
+  <li><a href="#">Suspendisse quis gravida massa felis.</a></li>
+  <li><a href="#">Curabitur malesuada turpis nec ante.</a></li>
+</ol>
+
+<p>A blockquote: </p>
+<blockquote>
+  <p>&#8220;Sed eu diam. Vivamus nonummy elit et odio. Fusce risus quam,  scelerisque sed, pharetra ut, pharetra id, ante. Etiam posuere, elit a  blandit varius, velit sem tincidunt elit, et pulvinar pede ligula a  sapien. Donec fermentum condimentum nisi. Proin iaculis mauris id lorem  viverra molestie. Duis vel orci. Nam consequat. Morbi nec lacus. Fusce  egestas sagittis enim.&#8221;</p>
+</blockquote>
+
+<p>Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">1 Comment &raquo;</a></p>
+
+Archives
+<ul>
+  <li><a href="#">January 2022</a></li>
+  <li><a href="#">December 2021</a></li>
+  <li><a href="#">November 2021</a></li>
+  <li><a href="#">October 2021</a></li>
+  <li><a href="#">September 2021</a></li>
+  <li><a href="#">August 2021</a></li>
+  <li><a href="#">July 2021</a></li>
+  <li><a href="#">June 2021</a></li>
+  <li><a href="#">May 2021</a></li>
+  <li><a href="#">April 2021</a></li>
+  <li><a href="#">March 2021</a></li>
+  <li><a href="#">February 2021</a></li>
+  <li><a href="#">January 2021</a></li>
+</ul>
+
+Categories
+<ul>
+  <li><a href="#">Quisque vestibulum</a> (23)</li>
+  <li><a href="#">Sed a nisl a lacus</a> (78)</li>
+  <li><a href="#">Quisque sagittis</a> (11)</li>
+  <li><a href="#">Etiam volutpat</a> (34)</li>
+  <li><a href="#">In aliquet hendrerit</a> (65)</li>
+  <li><a href="#">Suspendisse iaculis</a> (35)</li>
+  <li><a href="#">Nam vel risus at</a> (22)</li>
+  <li><a href="#">Praesent sit amet</a> (54)</li>
+</ul>
+
+
+<p>Copyright &copy; 2022. Designed by <a href="#"><strong>[YOUR NAME HERE]</strong></a></p>
+
